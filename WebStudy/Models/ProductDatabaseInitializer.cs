@@ -7,7 +7,7 @@ namespace WebStudy.Models
 {
     public class ProductDatabaseInitializer : DropCreateDatabaseIfModelChanges<ProductContext>
     {
-        protected override void Seed(ProductContext context)
+        protected override void seen (ProductContext context)
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
             GetProducts().ForEach(p => context.Products.Add(p));
@@ -200,5 +200,5 @@ namespace WebStudy.Models
             };
 
             return products;
-        }
+        
 }

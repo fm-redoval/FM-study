@@ -38,5 +38,5 @@
             </p>
         </div>
     </div>
-
+    <a href="Infopage.aspx">entenda</a>
 </asp:Content>
