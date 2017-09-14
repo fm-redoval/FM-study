@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebStudy.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ExPrivacidade.aspx.cs" Inherits="WebStudy.WebForm1" %>
 
 <!DOCTYPE html>
 
